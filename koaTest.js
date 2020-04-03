@@ -20,7 +20,8 @@ app.use(async ctx => {
     client.connect('http://localhost:3001/', () => {
       console.log('天')
     })
-  } catch{
+  } catch(err){
+    console.log('destroy')
     client.destroy()
   }
 });
