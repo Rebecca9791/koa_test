@@ -12,7 +12,7 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "ora": "^4.0.3",
-    "shelljs": "^0.8.3"
+    "shelljs": "^0.8.5"
   },
   "dependencies": {
     "koa": "^2.11.0",
